@@ -1,0 +1,47 @@
+*{
+    margin: 5px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+img{
+    width: 120px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.primerHead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(47, 144, 112);
+    font-size: 1.6em;
+}
+
+.datosPersonal{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoEmpleado{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.389);
+    border: 2px solid black;
+}
+
+.infoEmpleado2 {
+    display: flex;
+    justify-content: space-around;
+}
+
